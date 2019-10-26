@@ -85,13 +85,23 @@ font-family: 'Pacifico', cursive; Logo
 
 .footer p{
     font-size:23px;
-    margin-top:20px;  
-    margin-bottom:70px;
+    margin-top:30px;  
+    margin-bottom:50px;
+    float: left;
 }
 
 .footer object{
 	width:35px;
     height:35px;
+}
+
+.fontawesome{
+  float:right;
+  margin-top:30px; 
+}
+
+.fontawesome .fab {
+  margin-right: 20px;
 }
 /* End Footer Section */
 
