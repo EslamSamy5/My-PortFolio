@@ -13,7 +13,7 @@ body {
   font-size: 15px;
   line-height: 1.5;
   display: block;
-  height: 3000px;
+  /* height: 3000px; */
   background-color: #20202c;
 }
 @font-face {
@@ -58,8 +58,8 @@ font-family: 'Pacifico', cursive; Logo
   text-decoration: none;
 }
 .nav-item a:hover {
-  background-color: #8c43ff;
-  width: 100%;
+  background-image: linear-gradient(to left, #be13ff, #48bbf1);
+  width: auto;
   color: white;
   cursor: pointer;
   border-radius: 5px;
@@ -94,22 +94,26 @@ font-family: 'Pacifico', cursive; Logo
 
 /* Start About Section */
 .about {
-  margin-top: 130px;
+  margin-top: 30px;
 }
-.about h3 {
+.h3 {
   font-weight: 700;
   font-size: 40px;
   letter-spacing: 2px;
-  margin-bottom: 30px;
+  padding-top: 40px;
 }
 .about h5 {
-  font-weight: 700;
-  font-size: 30px;
-  letter-spacing: 1px;
-  width: 50%;
+  font-weight: bold;
+  font-size: 33px;
+  width: 80%;
   margin: 0 auto;
   line-height: 2.8rem;
-  margin-bottom: 130px;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+.about img {
+  height: 450px;
+  margin-bottom: 80px;
 }
 /* End About Section */
 
@@ -130,7 +134,7 @@ font-family: 'Pacifico', cursive; Logo
   margin-bottom: 15px;
 }
 .progress-bar {
-  background-color: #8c43ff !important;
+  background-image: #48bbf1 !important;
 }
 .dff {
   margin-top: 37px;
@@ -144,7 +148,7 @@ font-family: 'Pacifico', cursive; Logo
 
 .Portfolio {
   position: relative;
-  margin: 5px;
+  margin: 15px;
   border: 2px solid black;
   float: left;
   width: 180px;
@@ -173,12 +177,12 @@ font-family: 'Pacifico', cursive; Logo
   text-align: center;
   font-size: 90%;
   background: black;
-  color: hotpink;
+  color: #4e4d5b;
 }
 
 .nav {
   padding: 20px;
-  margin-left: 340px;
+  margin-left: 260px;
   margin-top: -30px;
 }
 
@@ -186,7 +190,7 @@ font-family: 'Pacifico', cursive; Logo
   margin: 5px;
   padding: 15px 50px;
   font-size: 16px;
-  color: hotpink;
+  color: #4e4d5b;
   background: #000;
   transition-duration: 0.4s;
 }
@@ -194,7 +198,8 @@ font-family: 'Pacifico', cursive; Logo
   background: #333;
 }
 .nav .active {
-  background-color: hotpink !important;
+  background-image: linear-gradient(to left, #be13ff, #48bbf1) !important;
+  box-shadow: 10px 10px linear-gradient(to left, #be13ff, #48bbf1);
   color: #fff;
 }
 
@@ -219,6 +224,7 @@ font-family: 'Pacifico', cursive; Logo
 .card {
   color: black;
   margin-bottom: 20px;
+  padding: 5px;
 }
 
 /* End Portfolio Section */
@@ -227,9 +233,10 @@ font-family: 'Pacifico', cursive; Logo
 
 .footer p {
   font-size: 23px;
-  margin-top: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   float: left;
+  color: #4e4d5b;
+  margin-top: 10px;
 }
 
 .footer object {
@@ -239,7 +246,7 @@ font-family: 'Pacifico', cursive; Logo
 
 .fontawesome {
   float: right;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .fontawesome .fab {
@@ -247,7 +254,7 @@ font-family: 'Pacifico', cursive; Logo
   color: black;
 }
 .fontawesome .fab:hover {
-  color: skyblue;
+  color: #48bbf1;
   transition: 0.7s all ease-in-out;
 }
 /* End Footer Section */
@@ -265,9 +272,11 @@ font-family: 'Pacifico', cursive; Logo
 }
 .font1 {
   font-family: "Indie Flower", cursive;
+  color: #4e4d5b;
 }
 .font2 {
   font-family: "Pacifico", cursive;
+  color: #4e4d5b;
 }
 .back {
   background-color: #8c43ff;
@@ -280,4 +289,35 @@ font-family: 'Pacifico', cursive; Logo
 .color2 {
   color: whitesmoke;
 }
+.clear {
+  clear: both;
+}
+.hr {
+  border: 1px solid #4e4d5b;
+}
 /* End Framework Section */
+
+/* Start Responsive Section */
+@media screen and (max-width: 768px) {
+  .about h5 {
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .nav {
+    margin: 0;
+  }
+  .nav li a {
+    padding: 5px 20px;
+  }
+  .Portfolio {
+    margin-left: 70px;
+  }
+  .footer p {
+    font-size: 15px;
+  }
+  .fontawesome {
+    text-align: center;
+    float: none;
+  }
+}
+/* End Responsive Section */

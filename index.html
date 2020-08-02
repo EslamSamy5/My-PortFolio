@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title></title>
   <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
@@ -28,7 +28,7 @@
   <!-- Start Header Section -->
   <div class="container">
     <div class="row">
-      <div class="col-12 header">
+      <div class="col-lg-12 col-md-6 col-sm-6 header">
         <nav class="navbar navbar-expand-lg navbar-light">
           <a class="navbar-brand float-left">Eslam Samy</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmenu"
@@ -67,16 +67,23 @@
   </div>
 
   <!-- End Banner Section -->
-
+  <div class="clear"></div>
   <!-- Start About Section -->
   <div class="container-fluid back" id="about">
+    <h3 class="font2 text-center h3">about me</h3>
     <div class="row ">
-      <div class="col-12">
+      <div class="col-lg-6 col-md-12 col-sm-12">
         <div class="about text-center">
-          <h3 class="font2">Hi My Name's Eslam Samy</h3>
-          <h5 class="font1">i'm a civil engineering but i love code Coding for me like breathing air i love coding every
-            match i spend hours coding and i'm happy about it and i don't regret coz i do what i love even when i'm
-            tired just i truly love it </h5>
+          <img class="img-thumbnail" src="img/IMG_20180618_051510.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="about text-center">
+          <h5 class="font1">Highly creative and multi talented Front- end developer with
+            extensive experience in responsive, animation and angular templates .
+            For me the front end is not just a job, something I enjoy doing when I crated a
+            template or i made from scratch because I love this track soon I am developing my
+            skills to be a full-stack. </h5>
         </div>
       </div>
     </div>
@@ -90,7 +97,7 @@
         <div class="row">
 
           <div class="col-lg-4 col-sm-12 col-xs-12">
-            <h4 class="right">Technical Skills</h4>
+            <h4 class="right font1">Technical Skills</h4>
             <span class="font1 center">Html</span>
             <div class="progress">
               <div class="progress-bar progress-bar-striped " role="progressbar" style="width:100%" aria-valuenow="50%"
@@ -148,11 +155,18 @@
               <div class="progress-bar progress-bar-striped " role="progressbar" style="width:70%" aria-valuenow="20%"
                 aria-valuemin="0" aria-valuemax="100">70%</div>
             </div>
+
+            <span class="font1 center">C++</span>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped " role="progressbar" style="width:70%" aria-valuenow="20%"
+                aria-valuemin="0" aria-valuemax="100">60%</div>
+            </div>
           </div>
+
           <!-- -------------------------------------------------- -->
 
           <div class="col-lg-4 col-sm-12 col-xs-12">
-            <h4>Professional Skills</h4>
+            <h4 class="font1">Professional Skills</h4>
             <span class="font1 center">Communication</span>
             <div class="progress">
               <div class="progress-bar progress-bar-striped " role="progressbar" style="width:100%" aria-valuenow="50%"
@@ -183,275 +197,284 @@
   </div>
   </div>
   <!-- End Skills Section -->
-
+  <hr class="hr">
   <!-- Start Portfolio Section -->
 
   <div class="container-fluid" style="margin-top:20px;" id="portfolio">
-    <h1 style="text-align:center;color:hotpink;">Portfolio</h1><br>
+    <h1 style="text-align:center;color:#4e4d5b;">Portfolio</h1><br>
     <div class="row">
+      <div class="col-md-12 col-sm-12">
+
+        <ul class="nav nav-pills mb-3 text-center" id="pills-tab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="showall-tab" data-toggle="pill" href="#showall" role="tab"
+              aria-controls="showall" aria-selected="true">All</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="Cars-tab" data-toggle="pill" href="#Cars" role="tab" aria-controls="Cars"
+              aria-selected="false">Front-end Section</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="City-tab" data-toggle="pill" href="#City" role="tab" aria-controls="City"
+              aria-selected="false">WordPress Section</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="Forest-tab" data-toggle="pill" href="#Forest" role="tab" aria-controls="Forest"
+              aria-selected="false">Flutter</a>
+          </li>
+        </ul>
+      </div>
+      <hr noshade style="margin-top:-20px;">
+      <div class="container">
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="showall" role="tabpanel" aria-labelledby="showall-tab">
+
+            <div class="Portfolio"><a href="https://eslamsamy5.github.io/fifty-fifty-template/" target="_blank"><img
+                  class="card-img"
+                  src="img/screencapture-eslamsamy5-github-io-fifty-fifty-template-2019-04-17-14_19_01.png" alt=""></a>
+              <div class="desc">fifty-fifty-template</div>
+            </div>
+
+            <div class="Portfolio"><a href="https://eslamsamy5.github.io/fifty-fifty-template/" target="_blank"><img
+                  class="card-img" src="img/سيارات محمد زكي – الثقة و الالتزام.png" alt=""></a>
+              <div class="desc">M-Zaky Automotive</div>
+            </div>
+
+            <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-i_am_poor" target="_blank"><img
+                  class="card-img" src="img/iam poor.png" alt=""></a>
+              <div class="desc">I'm Poor app</div>
+            </div>
+
+            <div class="Portfolio"><a href="https://eslamsamy5.github.io/Hotel_website-template/" target="_blank"><img
+                  class="card-img"
+                  src="img/screencapture-eslamsamy5-github-io-Hotel_website-template-2019-04-17-14_19_47.png"
+                  alt=""></a>
+              <div class="desc">Hotel-template</div>
+            </div>
 
 
-      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-        <li class="nav-item">
-          <a class="nav-link active" id="showall-tab" data-toggle="pill" href="#showall" role="tab"
-            aria-controls="showall" aria-selected="true">All</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="Cars-tab" data-toggle="pill" href="#Cars" role="tab" aria-controls="Cars"
-            aria-selected="false">Front-end Section</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="City-tab" data-toggle="pill" href="#City" role="tab" aria-controls="City"
-            aria-selected="false">WordPress Section</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="Forest-tab" data-toggle="pill" href="#Forest" role="tab" aria-controls="Forest"
-            aria-selected="false">Flutter</a>
-        </li>
-      </ul>
-    </div>
-    <hr noshade style="margin-top:-20px;">
-    <div class="container">
-      <div class="tab-content" id="pills-tabContent">
-        <div class="tab-pane fade show active" id="showall" role="tabpanel" aria-labelledby="showall-tab">
+            <div class="Portfolio"><a href="https://capjet.net/" target="_blank"><img class="card-img"
+                  src="img/شركة كابجت – Capjet – لتصنيع ملابس الشركات - capjet.net.png" alt=""></a>
+              <div class="desc">CapJet</div>
+            </div>
 
-          <div class="Portfolio"><a href="https://eslamsamy5.github.io/fifty-fifty-template/" target="_blank"><img
-                class="card-img"
-                src="img/screencapture-eslamsamy5-github-io-fifty-fifty-template-2019-04-17-14_19_01.png" alt=""></a>
-            <div class="desc">fifty-fifty-template</div>
-          </div>
+            <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-i-am-rich" target="_blank"><img
+                  class="card-img" src="img/iam rich.png" alt=""></a>
+              <div class="desc">i'm rich app</div>
+            </div>
 
-          <div class="Portfolio"><a href="https://eslamsamy5.github.io/fifty-fifty-template/" target="_blank"><img
-                class="card-img" src="img/سيارات محمد زكي – الثقة و الالتزام.png" alt=""></a>
-            <div class="desc">M-Zaky Automotive</div>
-          </div>
+            <div class="Portfolio"><a href="https://eslamsamy5.github.io/Band_Template/" target="_blank"><img
+                  class="card-img" src="img/screencapture-eslamsamy5-github-io-Band_Template-2019-04-17-14_20_38.png"
+                  alt=""></a>
+              <div class="desc">Band-template</div>
+            </div>
 
-          <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-i_am_poor" target="_blank"><img
-                class="card-img" src="img/iam poor.png" alt=""></a>
-            <div class="desc">I'm Poor app</div>
-          </div>
+            <div class="Portfolio"><a href="https://eslamsamy5.github.io/Company_page/" target="_blank"><img
+                  class="card-img" src="img/screencapture-eslamsamy5-github-io-Company_page-2019-04-17-14_21_26.png"
+                  alt=""></a>
+              <div class="desc">Company-template</div>
+            </div>
 
-          <div class="Portfolio"><a href="https://eslamsamy5.github.io/Hotel_website-template/" target="_blank"><img
-                class="card-img"
-                src="img/screencapture-eslamsamy5-github-io-Hotel_website-template-2019-04-17-14_19_47.png" alt=""></a>
-            <div class="desc">Hotel-template</div>
-          </div>
+            <div class="Portfolio"><a href="https://eslamsamy5.github.io/4th-template-multi-page/" target="_blank"><img
+                  class="card-img"
+                  src="img/screencapture-eslamsamy5-github-io-4th-template-multi-page-2019-04-17-14_23_37.png"
+                  alt=""></a>
+              <div class="desc">Mustache-template</div>
+            </div>
 
+            <div class="Portfolio"><a href="https://eslamsamy5.github.io/3rd-template-multi-page/" target="_blank"><img
+                  class="card-img"
+                  src="img/screencapture-eslamsamy5-github-io-3rd-template-multi-page-2019-04-17-14_23_10.png"
+                  alt=""></a>
+              <div class="desc">Fashion-template</div>
+            </div>
 
-          <div class="Portfolio"><a href="https://capjet.net/" target="_blank"><img class="card-img"
-                src="img/شركة كابجت – Capjet – لتصنيع ملابس الشركات - capjet.net.png" alt=""></a>
-            <div class="desc">CapJet</div>
-          </div>
+            <div class="Portfolio"><a href="https://eslamsamy5.github.io/Creating-2nd-template/" target="_blank"><img
+                  class="card-img"
+                  src="img/screencapture-eslamsamy5-github-io-Creating-2nd-template-2019-04-17-14_22_36.png" alt=""></a>
+              <div class="desc">Classic-template</div>
+            </div>
 
-          <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-i-am-rich" target="_blank"><img
-                class="card-img" src="img/iam rich.png" alt=""></a>
-            <div class="desc">i'm rich app</div>
-          </div>
+            <div class="Portfolio"><a href="https://eslamsamy5.github.io/Creating-first-template/" target="_blank"><img
+                  class="card-img"
+                  src="img/screencapture-eslamsamy5-github-io-Creating-first-template-2019-04-17-14_21_56.png"
+                  alt=""></a>
+              <div class="desc">FOCAL-template</div>
+            </div>
 
-          <div class="Portfolio"><a href="https://eslamsamy5.github.io/Band_Template/" target="_blank"><img
-                class="card-img" src="img/screencapture-eslamsamy5-github-io-Band_Template-2019-04-17-14_20_38.png"
-                alt=""></a>
-            <div class="desc">Band-template</div>
-          </div>
+            <div class="Portfolio"><a href="https://oufsalon.com/" target="_blank"><img class="card-img"
+                  src="img/Home - صالون عوف - oufsalon.com.jpg" alt=""></a>
+              <div class="desc">Ouf Salon</div>
+            </div>
 
-          <div class="Portfolio"><a href="https://eslamsamy5.github.io/Company_page/" target="_blank"><img
-                class="card-img" src="img/screencapture-eslamsamy5-github-io-Company_page-2019-04-17-14_21_26.png"
-                alt=""></a>
-            <div class="desc">Company-template</div>
-          </div>
+            <div class="Portfolio"><a href="https://htpfactory.com/" target="_blank"><img class="card-img"
+                  src="img/FireShot Capture 007 - Helwan Factory – For Transport Preparation - htpfactory.com.jpg"
+                  alt=""></a>
+              <div class="desc">Http Factory</div>
+            </div>
 
-          <div class="Portfolio"><a href="https://eslamsamy5.github.io/4th-template-multi-page/" target="_blank"><img
-                class="card-img"
-                src="img/screencapture-eslamsamy5-github-io-4th-template-multi-page-2019-04-17-14_23_37.png" alt=""></a>
-            <div class="desc">Mustache-template</div>
-          </div>
+            <div class="Portfolio"><a href="https://image-voyages.com/" target="_blank"><img class="card-img"
+                  src="img/image Voyages – رحلات الحج و العمرة – حجز _ - image-voyages.com.jpg" alt=""></a>
+              <div class="desc">image voyages</div>
+            </div>
 
-          <div class="Portfolio"><a href="https://eslamsamy5.github.io/3rd-template-multi-page/" target="_blank"><img
-                class="card-img"
-                src="img/screencapture-eslamsamy5-github-io-3rd-template-multi-page-2019-04-17-14_23_10.png" alt=""></a>
-            <div class="desc">Fashion-template</div>
-          </div>
+            <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-mi_card" target="_blank"><img
+                  class="card-img" src="img/mi card.png" alt=""></a>
+              <div class="desc">mi card app</div>
+            </div>
 
-          <div class="Portfolio"><a href="https://eslamsamy5.github.io/Creating-2nd-template/" target="_blank"><img
-                class="card-img"
-                src="img/screencapture-eslamsamy5-github-io-Creating-2nd-template-2019-04-17-14_22_36.png" alt=""></a>
-            <div class="desc">Classic-template</div>
-          </div>
+            <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-dicee" target="_blank"><img
+                  class="card-img" src="img/dicee.gif" alt=""></a>
+              <div class="desc">Dice app</div>
+            </div>
 
-          <div class="Portfolio"><a href="https://eslamsamy5.github.io/Creating-first-template/" target="_blank"><img
-                class="card-img"
-                src="img/screencapture-eslamsamy5-github-io-Creating-first-template-2019-04-17-14_21_56.png" alt=""></a>
-            <div class="desc">FOCAL-template</div>
-          </div>
+            <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-magic-8-ball" target="_blank"><img
+                  class="card-img" src="img/magic-8-ball.gif" alt=""></a>
+              <div class="desc">magic-8-ball app</div>
+            </div>
 
-          <div class="Portfolio"><a href="https://oufsalon.com/" target="_blank"><img class="card-img"
-                src="img/Home - صالون عوف - oufsalon.com.jpg" alt=""></a>
-            <div class="desc">Ouf Salon</div>
-          </div>
+            <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-xylophone" target="_blank"><video
+                  src="video/Screenrecorder-2019-10-25-19-09-19-207.mp4" height="240px" controls></video></a>
+              <div class="desc">xylophone app</div>
+            </div>
 
-          <div class="Portfolio"><a href="https://htpfactory.com/" target="_blank"><img class="card-img"
-                src="img/FireShot Capture 007 - Helwan Factory – For Transport Preparation - htpfactory.com.jpg"
-                alt=""></a>
-            <div class="desc">Http Factory</div>
-          </div>
+            <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-quizzler" target="_blank"><img
+                  class="card-img" src="img/quizzler.gif" alt=""></a>
+              <div class="desc">quizzler app</div>
+            </div>
 
-          <div class="Portfolio"><a href="https://image-voyages.com/" target="_blank"><img class="card-img"
-                src="img/image Voyages – رحلات الحج و العمرة – حجز _ - image-voyages.com.jpg" alt=""></a>
-            <div class="desc">image voyages</div>
-          </div>
-
-          <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-mi_card" target="_blank"><img
-                class="card-img" src="img/mi card.png" alt=""></a>
-            <div class="desc">mi card app</div>
-          </div>
-
-          <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-dicee" target="_blank"><img
-                class="card-img" src="img/dicee.gif" alt=""></a>
-            <div class="desc">Dice app</div>
-          </div>
-
-          <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-magic-8-ball" target="_blank"><img
-                class="card-img" src="img/magic-8-ball.gif" alt=""></a>
-            <div class="desc">magic-8-ball app</div>
-          </div>
-
-          <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-xylophone" target="_blank"><video
-                src="video/Screenrecorder-2019-10-25-19-09-19-207.mp4" height="240px" controls></video></a>
-            <div class="desc">xylophone app</div>
-          </div>
-
-          <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-quizzler" target="_blank"><img
-                class="card-img" src="img/quizzler.gif" alt=""></a>
-            <div class="desc">quizzler app</div>
-          </div>
-
-          <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-destini" target="_blank"><img
-                class="card-img" src="img/destini.gif" alt=""></a>
-            <div class="desc">destini app</div>
-          </div>
+            <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-destini" target="_blank"><img
+                  class="card-img" src="img/destini.gif" alt=""></a>
+              <div class="desc">destini app</div>
+            </div>
 
 
 
-        </div>
-        <div class="tab-pane fade" id="Cars" role="tabpanel" aria-labelledby="Cars-tab">
-          <div class="Portfolio"><a href="https://eslamsamy5.github.io/fifty-fifty-template/" target="_blank"><img
-                class="card-img"
-                src="img/screencapture-eslamsamy5-github-io-fifty-fifty-template-2019-04-17-14_19_01.png" alt=""></a>
-            <div class="desc">fifty-fifty-template</div>
           </div>
-          <div class="Portfolio"><a href="https://eslamsamy5.github.io/Hotel_website-template/" target="_blank"><img
-                class="card-img"
-                src="img/screencapture-eslamsamy5-github-io-Hotel_website-template-2019-04-17-14_19_47.png" alt=""></a>
-            <div class="desc">Hotel-template</div>
-          </div>
-          <div class="Portfolio"><a href="https://eslamsamy5.github.io/Band_Template/" target="_blank"><img
-                class="card-img" src="img/screencapture-eslamsamy5-github-io-Band_Template-2019-04-17-14_20_38.png"
-                alt=""></a>
-            <div class="desc">Band-template</div>
-          </div>
+          <div class="tab-pane fade" id="Cars" role="tabpanel" aria-labelledby="Cars-tab">
+            <div class="Portfolio"><a href="https://eslamsamy5.github.io/fifty-fifty-template/" target="_blank"><img
+                  class="card-img"
+                  src="img/screencapture-eslamsamy5-github-io-fifty-fifty-template-2019-04-17-14_19_01.png" alt=""></a>
+              <div class="desc">fifty-fifty-template</div>
+            </div>
+            <div class="Portfolio"><a href="https://eslamsamy5.github.io/Hotel_website-template/" target="_blank"><img
+                  class="card-img"
+                  src="img/screencapture-eslamsamy5-github-io-Hotel_website-template-2019-04-17-14_19_47.png"
+                  alt=""></a>
+              <div class="desc">Hotel-template</div>
+            </div>
+            <div class="Portfolio"><a href="https://eslamsamy5.github.io/Band_Template/" target="_blank"><img
+                  class="card-img" src="img/screencapture-eslamsamy5-github-io-Band_Template-2019-04-17-14_20_38.png"
+                  alt=""></a>
+              <div class="desc">Band-template</div>
+            </div>
 
-          <div class="Portfolio"><a href="https://eslamsamy5.github.io/Company_page/" target="_blank"><img
-                class="card-img" src="img/screencapture-eslamsamy5-github-io-Company_page-2019-04-17-14_21_26.png"
-                alt=""></a>
-            <div class="desc">Company-template</div>
-          </div>
+            <div class="Portfolio"><a href="https://eslamsamy5.github.io/Company_page/" target="_blank"><img
+                  class="card-img" src="img/screencapture-eslamsamy5-github-io-Company_page-2019-04-17-14_21_26.png"
+                  alt=""></a>
+              <div class="desc">Company-template</div>
+            </div>
 
-          <div class="Portfolio"><a href="https://eslamsamy5.github.io/4th-template-multi-page/" target="_blank"><img
-                class="card-img"
-                src="img/screencapture-eslamsamy5-github-io-4th-template-multi-page-2019-04-17-14_23_37.png" alt=""></a>
-            <div class="desc">Mustache-template</div>
-          </div>
+            <div class="Portfolio"><a href="https://eslamsamy5.github.io/4th-template-multi-page/" target="_blank"><img
+                  class="card-img"
+                  src="img/screencapture-eslamsamy5-github-io-4th-template-multi-page-2019-04-17-14_23_37.png"
+                  alt=""></a>
+              <div class="desc">Mustache-template</div>
+            </div>
 
-          <div class="Portfolio"><a href="https://eslamsamy5.github.io/3rd-template-multi-page/" target="_blank"><img
-                class="card-img"
-                src="img/screencapture-eslamsamy5-github-io-3rd-template-multi-page-2019-04-17-14_23_10.png" alt=""></a>
-            <div class="desc">Fashion-template</div>
-          </div>
+            <div class="Portfolio"><a href="https://eslamsamy5.github.io/3rd-template-multi-page/" target="_blank"><img
+                  class="card-img"
+                  src="img/screencapture-eslamsamy5-github-io-3rd-template-multi-page-2019-04-17-14_23_10.png"
+                  alt=""></a>
+              <div class="desc">Fashion-template</div>
+            </div>
 
-          <div class="Portfolio"><a href="https://eslamsamy5.github.io/Creating-2nd-template/" target="_blank"><img
-                class="card-img"
-                src="img/screencapture-eslamsamy5-github-io-Creating-2nd-template-2019-04-17-14_22_36.png" alt=""></a>
-            <div class="desc">Classic-template</div>
-          </div>
+            <div class="Portfolio"><a href="https://eslamsamy5.github.io/Creating-2nd-template/" target="_blank"><img
+                  class="card-img"
+                  src="img/screencapture-eslamsamy5-github-io-Creating-2nd-template-2019-04-17-14_22_36.png" alt=""></a>
+              <div class="desc">Classic-template</div>
+            </div>
 
-          <div class="Portfolio"><a href="https://eslamsamy5.github.io/Creating-first-template/" target="_blank"><img
-                class="card-img"
-                src="img/screencapture-eslamsamy5-github-io-Creating-first-template-2019-04-17-14_21_56.png" alt=""></a>
-            <div class="desc">FOCAL-template</div>
-          </div>
+            <div class="Portfolio"><a href="https://eslamsamy5.github.io/Creating-first-template/" target="_blank"><img
+                  class="card-img"
+                  src="img/screencapture-eslamsamy5-github-io-Creating-first-template-2019-04-17-14_21_56.png"
+                  alt=""></a>
+              <div class="desc">FOCAL-template</div>
+            </div>
 
-        </div>
-        <div class="tab-pane fade" id="City" role="tabpanel" aria-labelledby="City-tab">
-          <div class="Portfolio"><a href="https://eslamsamy5.github.io/fifty-fifty-template/" target="_blank"><img
-                class="card-img" src="img/سيارات محمد زكي – الثقة و الالتزام.png" alt=""></a>
-            <div class="desc">M-Zaky Automotive</div>
           </div>
-          <div class="Portfolio"><a href="https://capjet.net/" target="_blank"><img class="card-img"
-                src="img/شركة كابجت – Capjet – لتصنيع ملابس الشركات - capjet.net.png" alt=""></a>
-            <div class="desc">CapJet</div>
-          </div>
-          <div class="Portfolio"><a href="https://oufsalon.com/" target="_blank"><img class="card-img"
-                src="img/Home - صالون عوف - oufsalon.com.jpg" alt=""></a>
-            <div class="desc">Ouf Salon</div>
-          </div>
+          <div class="tab-pane fade" id="City" role="tabpanel" aria-labelledby="City-tab">
+            <div class="Portfolio"><a href="https://eslamsamy5.github.io/fifty-fifty-template/" target="_blank"><img
+                  class="card-img" src="img/سيارات محمد زكي – الثقة و الالتزام.png" alt=""></a>
+              <div class="desc">M-Zaky Automotive</div>
+            </div>
+            <div class="Portfolio"><a href="https://capjet.net/" target="_blank"><img class="card-img"
+                  src="img/شركة كابجت – Capjet – لتصنيع ملابس الشركات - capjet.net.png" alt=""></a>
+              <div class="desc">CapJet</div>
+            </div>
+            <div class="Portfolio"><a href="https://oufsalon.com/" target="_blank"><img class="card-img"
+                  src="img/Home - صالون عوف - oufsalon.com.jpg" alt=""></a>
+              <div class="desc">Ouf Salon</div>
+            </div>
 
-          <div class="Portfolio"><a href="https://htpfactory.com/" target="_blank"><img class="card-img"
-                src="img/FireShot Capture 007 - Helwan Factory – For Transport Preparation - htpfactory.com.jpg"
-                alt=""></a>
-            <div class="desc">Http Factory</div>
-          </div>
+            <div class="Portfolio"><a href="https://htpfactory.com/" target="_blank"><img class="card-img"
+                  src="img/FireShot Capture 007 - Helwan Factory – For Transport Preparation - htpfactory.com.jpg"
+                  alt=""></a>
+              <div class="desc">Http Factory</div>
+            </div>
 
-          <div class="Portfolio"><a href="https://image-voyages.com/" target="_blank"><img class="card-img"
-                src="img/image Voyages – رحلات الحج و العمرة – حجز _ - image-voyages.com.jpg" alt=""></a>
-            <div class="desc">image voyages</div>
+            <div class="Portfolio"><a href="https://image-voyages.com/" target="_blank"><img class="card-img"
+                  src="img/image Voyages – رحلات الحج و العمرة – حجز _ - image-voyages.com.jpg" alt=""></a>
+              <div class="desc">image voyages</div>
+            </div>
           </div>
-        </div>
-        <div class="tab-pane fade" id="Forest" role="tabpanel" aria-labelledby="Forest-tab">
-          <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-i_am_poor" target="_blank"><img
-                class="card-img" src="img/iam poor.png" alt=""></a>
-            <div class="desc">I'm Poor app</div>
-          </div>
-          <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-i-am-rich" target="_blank"><img
-                class="card-img" src="img/iam rich.png" alt=""></a>
-            <div class="desc">i'm rich app</div>
-          </div>
-          <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-mi_card" target="_blank"><img
-                class="card-img" src="img/mi card.png" alt=""></a>
-            <div class="desc">mi card app</div>
-          </div>
+          <div class="tab-pane fade" id="Forest" role="tabpanel" aria-labelledby="Forest-tab">
+            <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-i_am_poor" target="_blank"><img
+                  class="card-img" src="img/iam poor.png" alt=""></a>
+              <div class="desc">I'm Poor app</div>
+            </div>
+            <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-i-am-rich" target="_blank"><img
+                  class="card-img" src="img/iam rich.png" alt=""></a>
+              <div class="desc">i'm rich app</div>
+            </div>
+            <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-mi_card" target="_blank"><img
+                  class="card-img" src="img/mi card.png" alt=""></a>
+              <div class="desc">mi card app</div>
+            </div>
 
-          <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-dicee" target="_blank"><img
-                class="card-img" src="img/dicee.gif" alt=""></a>
-            <div class="desc">Dice app</div>
-          </div>
+            <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-dicee" target="_blank"><img
+                  class="card-img" src="img/dicee.gif" alt=""></a>
+              <div class="desc">Dice app</div>
+            </div>
 
-          <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-magic-8-ball" target="_blank"><img
-                class="card-img" src="img/magic-8-ball.gif" alt=""></a>
-            <div class="desc">magic-8-ball app</div>
-          </div>
+            <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-magic-8-ball" target="_blank"><img
+                  class="card-img" src="img/magic-8-ball.gif" alt=""></a>
+              <div class="desc">magic-8-ball app</div>
+            </div>
 
-          <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-xylophone" target="_blank"><video
-                src="video/Screenrecorder-2019-10-25-19-09-19-207.mp4" height="240px" controls></video></a>
-            <div class="desc">xylophone app</div>
-          </div>
+            <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-xylophone" target="_blank"><video
+                  src="video/Screenrecorder-2019-10-25-19-09-19-207.mp4" height="240px" controls></video></a>
+              <div class="desc">xylophone app</div>
+            </div>
 
-          <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-quizzler" target="_blank"><img
-                class="card-img" src="img/quizzler.gif" alt=""></a>
-            <div class="desc">quizzler app</div>
-          </div>
+            <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-quizzler" target="_blank"><img
+                  class="card-img" src="img/quizzler.gif" alt=""></a>
+              <div class="desc">quizzler app</div>
+            </div>
 
-          <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-destini" target="_blank"><img
-                class="card-img" src="img/destini.gif" alt=""></a>
-            <div class="desc">destini app</div>
+            <div class="Portfolio"><a href="https://github.com/EslamSamy5/flutter-destini" target="_blank"><img
+                  class="card-img" src="img/destini.gif" alt=""></a>
+              <div class="desc">destini app</div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-
   </div>
 
   <!-- End Portfolio Section -->
-
+  <div class="clear"></div>
+  <hr class="hr">
   <!-- Start Footer Section -->
 
   <div class="container-fluid">
